@@ -1,3 +1,4 @@
+```
 az aks get-credentials --resource-group atom-demo --name atom-demo
 kubectl get namespaces
 kubectl create namespace mariia-shark-argocd
@@ -13,3 +14,4 @@ argocd app list
 ps aux | grep kubectl
 killall -9 kubectl
 argocd logout localhost:8080
+```
