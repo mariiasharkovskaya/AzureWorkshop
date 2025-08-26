@@ -9,7 +9,7 @@ kubectl get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | 
 kubectl port-forward svc/argocd-server 8080:443 &
 localhost:8080 -> [ArgoCD] username:admin; password:password
 brew install argocd
-argocd login localhost:8080 --username admin --password vRKqjnDUIamLwehh  --insecure
+argocd login localhost:8080 --username admin --password <password>  --insecure
 argocd app list
 ps aux | grep kubectl
 killall -9 kubectl
