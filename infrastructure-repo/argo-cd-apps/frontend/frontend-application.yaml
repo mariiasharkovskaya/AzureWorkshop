@@ -2,18 +2,18 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application  
 metadata:  
   name: frontend-test  
-  namespace: argocd  
+  namespace: mariia-shark-argocd  
   annotations:  
     argocd.argoproj.io/sync-wave: "1" 
 spec:  
-  project: devbcn-demo  
+  project: devbcn-demo-ms  
   source:  
-    repoURL: https://github.com/staslebedenko/dev-infrastructure.git  
+    repoURL: https://github.com/mariiasharkovskaya/AzureWorkshop/tree/master/infrastructure-repo/
     targetRevision: HEAD  
-    path: step-3/apps/frontend/envs/dev  
+    path: apps/frontend/envs/dev  
   destination:  
     server: https://kubernetes.default.svc  
-    namespace: devbcn-demo
+    namespace: devbcn-demo-ms
   syncPolicy:  
     automated:  
       prune: true  
