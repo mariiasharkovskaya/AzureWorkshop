@@ -5,7 +5,7 @@ FROM node:18-alpine AS build
 WORKDIR /app
 
 # Pass build-time ARG (can be overridden when building the image)  
-ARG BACKEND_URL=http://localhost:5000  
+ARG BACKEND_URL=http://localhost:5020  
   
 # Copy your frontend source files  
 COPY index.html ./  

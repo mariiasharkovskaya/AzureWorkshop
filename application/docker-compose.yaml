@@ -9,7 +9,7 @@ services:
   backend:
     build: ./backend
     ports:
-      - "5000:5000"
+      - "5020:5020"
     environment:
       - CORS_ALLOWED_ORIGIN=http://localhost:8080
       - REDIS_CONN_STR=redis://redis:6379
@@ -20,7 +20,7 @@ services:
     build:
       context: ./frontend
       args:
-        BACKEND_URL: "http://localhost:5000"
+        BACKEND_URL: "http://localhost:5020"
     ports:
       - "8080:80"
     depends_on:
