@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service  
 metadata:  
   name: frontend  
-  namespace: devbcn-demo-ms
+  namespace: devbcn-ms
 spec:  
   selector:  
     app: frontend  

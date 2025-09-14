@@ -8,9 +8,9 @@ metadata:
 spec:  
   project: devbcn-demo-ms  
   source:  
-    repoURL: https://github.com/mariiasharkovskaya/AzureWorkshop/tree/master/infrastructure-repo/
+    repoURL: https://github.com/mariiasharkovskaya/AzureWorkshop.git
     targetRevision: HEAD  
-    path: apps/frontend/envs/dev  
+    path: infrastructure-repo/apps/frontend/envs/dev
   destination:  
     server: https://kubernetes.default.svc  
     namespace: devbcn-demo-ms
