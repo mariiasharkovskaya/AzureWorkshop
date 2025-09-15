@@ -13,7 +13,7 @@ spec:
     path: infrastructure-repo/apps/frontend/envs/dev
   destination:  
     server: https://kubernetes.default.svc  
-    namespace: devbcn-demo-ms
+    namespace: mariia-shark-argocd  
   syncPolicy:  
     automated:  
       prune: true  
