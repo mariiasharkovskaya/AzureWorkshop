@@ -15,6 +15,6 @@ spec:
     spec:  
       containers:  
         - name: frontend  
-          image: docker.io/stasiko/funneverends-frontend:latest  
+          image: mariiasharkacr.azurecr.io/funneverends-frontend:v1
           ports:  
             - containerPort: 80  

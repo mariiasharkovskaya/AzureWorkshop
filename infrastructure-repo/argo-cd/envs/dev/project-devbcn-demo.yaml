@@ -8,7 +8,7 @@ spec:
   sourceRepos:  
     - "*" # Allow all repositories, or specify your Git repos explicitly  
   destinations:  
-    - namespace: devbcn-demo-ms # Allow all namespaces, or restrict to specific namespaces if needed  'https://your.git.repo/applications.git'
+    - namespace: mariia-shark-argocd   # Allow all namespaces, or restrict to specific namespaces if needed  'https://your.git.repo/applications.git'
       server: "*"    # Allow all clusters, or restrict to specific clusters  
   clusterResourceWhitelist:  
     - group: "*"  
