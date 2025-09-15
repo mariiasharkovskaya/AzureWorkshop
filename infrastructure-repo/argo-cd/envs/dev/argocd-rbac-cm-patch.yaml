@@ -7,7 +7,7 @@ data:
   policy.csv: |  
     g, devbcn, role:devbcn-demo-admin
     p, role:devbcn-demo-admin, *, *, *, deny
-    p, role:devbcn-demo-admin, applications, *, devbcn-demo/*, allow
-    p, role:devbcn-demo-admin, projects, get, devbcn-demo, allow
+    p, role:devbcn-demo-admin, applications, *, devbcn-demo-ms/*, allow
+    p, role:devbcn-demo-admin, projects, get, devbcn-demo-ms, allow
   policy.default: role:readonly  
   scopes: '[groups]'
