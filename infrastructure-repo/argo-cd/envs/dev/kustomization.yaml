@@ -2,6 +2,7 @@ resources:
   - ../../base  
   - restrict-default-project.yaml
   - project-devbcn-demo.yaml
+  - project-common-resources.yaml
   
 namespace: mariia-shark-argocd  
   
