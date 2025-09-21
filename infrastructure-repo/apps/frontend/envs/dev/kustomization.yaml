@@ -4,7 +4,7 @@ kind: Kustomization
 resources:  
   - ../../base  
 
-namespace: devbcn-demo-ms
+namespace: devbcn-demo
 
 patches:  
 - path: deployment-patch.yaml 

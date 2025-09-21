@@ -6,7 +6,7 @@ metadata:
   annotations:  
     argocd.argoproj.io/sync-wave: "1" 
 spec:  
-  project: devbcn-demo-ms  
+  project: devbcn-demo  
   source:  
     repoURL: https://github.com/mariiasharkovskaya/AzureWorkshop.git
     targetRevision: HEAD  
